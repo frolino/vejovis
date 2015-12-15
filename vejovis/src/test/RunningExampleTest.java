@@ -10,7 +10,7 @@ import com.crawljax.plugins.webscarabwrapper.WebScarabWrapper;
 import java.util.*;
 
 public class RunningExampleTest {
-	private static final int testNumber = 8;
+	private static final int testNumber = 12;
 	
 	private static String URL = "";
 	
@@ -28,6 +28,10 @@ public class RunningExampleTest {
 		String srcLine = "";
 		String funcName = "";
 		int lineNo = -1;
+		String srcLine_indexCall = "";
+		String funcName_indexCall = "";
+		int lineNo_indexCall = -1;
+		String indexExpr = "";
 		boolean injectMode = false;
 		int injectLineNo = 0;
 		String injectFuncName = "";
@@ -94,6 +98,46 @@ public class RunningExampleTest {
 				injectModSrc = "var m = document.getElementById(\"mainResultsCorrect0\"); var n = document.getElementById(\"mainResultsCorrect1\"); m.parentNode.removeChild(m); n.parentNode.removeChild(n); msg = \"Correct\";";
 				injectType = 1;
 				break;
+			case 9:
+				URL = "http://frolinsfilms.comuv.com/vejovis_example_tags.html";
+				srcLine = "var x = document.getElementsByTagName(\"h1\");";
+				funcName = "countHelloInstances";
+				lineNo = 1;
+				srcLine_indexCall = "var y = x[i].innerHTML;";
+				funcName_indexCall = "countHelloInstances";
+				lineNo_indexCall = 5;
+				indexExpr = "i";
+				break;
+			case 10:
+				URL = "http://frolinsfilms.comuv.com/vejovis_example_tags_v2.html";
+				srcLine = "var x = document.getElementsByTagName(\"trial\");";
+				funcName = "countHelloInstances";
+				lineNo = 1;
+				srcLine_indexCall = "var y = x[i].innerHTML;";
+				funcName_indexCall = "countHelloInstances";
+				lineNo_indexCall = 5;
+				indexExpr = "i";
+				break;
+			case 11:
+				URL = "http://frolinsfilms.comuv.com/vejovis_example_tags_v3.html";
+				srcLine = "var z = document.getElementsByTagName(\"title\");";
+				funcName = "countHelloInstances";
+				lineNo = 11;
+				srcLine_indexCall = "z[1].innerHTML = \"Print Tags!!\";";
+				funcName_indexCall = "countHelloInstances";
+				lineNo_indexCall = 12;
+				indexExpr = "1";
+				break;
+			case 12:
+				URL = "http://frolinsfilms.comuv.com/vejovis_example_tags_v4.html";
+				srcLine = "var z = document.getElementsByTagName(\"titel\");";
+				funcName = "countHelloInstances";
+				lineNo = 11;
+				srcLine_indexCall = "z[0].innerHTML = \"Print Tags!!\";";
+				funcName_indexCall = "countHelloInstances";
+				lineNo_indexCall = 12;
+				indexExpr = "0";
+				break;
 			default:
 				System.out.println("Error: Invalid test number");
 				System.exit(-1);
@@ -104,7 +148,12 @@ public class RunningExampleTest {
 		crawler = new CrawlSpecification(URL);
 		
 		//The test(s)
-		test1();
+		if (testNumber <= 8) {
+			test1();
+		}
+		else {
+			test2();
+		}
 		
 		config.setCrawlSpecification(crawler);
 		config.addPlugin(new CrawlOverview());
@@ -145,11 +194,18 @@ public class RunningExampleTest {
 		//Check DOM IDs in tracer
 		List<List<DomIdInfo>> states = tracer.getStates();
 		
+		//Check DOM Tags in tracer
+		List<List<DomTagInfo>> tags = tracer.getTags();
+		
 		//Run StringSetExtractor
 		//Set up direct DOM access
 		
 		try {
 			DirectDOMAccess dda = new DirectDOMAccess(lineNo, srcLine, funcName);
+			IndexCall idxCall = null;
+			if (!srcLine_indexCall.equals("")) {
+				idxCall = new IndexCall(lineNo_indexCall, srcLine_indexCall, funcName_indexCall, indexExpr);
+			}
 			StringSetExtractor extractor = new StringSetExtractor(JSSOURCEOUTPUTFOLDER, OUTPUTDIRECTORY+outputFolder+EXECUTIONTRACEDIRECTORY,dda);
 			/*START INJECT MODE*/
 			if (injectMode) {
@@ -168,8 +224,17 @@ public class RunningExampleTest {
 			int currentState = extractor.getCurrentState();
 			
 			//Run FixClassSelector
-			FixClassSelector fcs = new FixClassSelector(strSet, extractor.getErroneousID(), dda, states, currentState); //create module that gets erroneous ID after
+			FixClassSelector fcs = new FixClassSelector(strSet, extractor.getErroneousID(), dda, states, currentState, idxCall, extractor.getGebtnParam(), tags); //create module that gets erroneous ID after
 			fcs.chooseFixClasses();
+			
+			//Print suggestions
+			List<CandidateFix> fixSuggestions = fcs.getCandidateFixes();
+			System.out.println("TOTAL FIX SUGGESTIONS: " + fixSuggestions.size());
+			for (int i = 0; i < fixSuggestions.size(); i++) {
+				CandidateFix nextFix = fixSuggestions.get(i);
+				System.out.println("FIX CLASS: " + nextFix.getFixClass().name());
+				System.out.println(nextFix.getMessageStr());
+			}
 			
 			return;
 		}
@@ -197,5 +262,20 @@ public class RunningExampleTest {
 		excludeList = sampleExclude;
 		
 		outputFolder = "test1/";
+	}
+	
+	private static void test2() {
+		crawler.setMaximumStates(4);
+		crawler.setDepth(3);
+
+		crawler.click("button").withAttribute("id", "mainOKButton");
+		crawler.click("button").withAttribute("id", "startBtn");
+		
+		//Exclude list
+		List<String> sampleExclude = new ArrayList<String>();
+		
+		excludeList = sampleExclude;
+		
+		outputFolder = "test2/";
 	}
 }

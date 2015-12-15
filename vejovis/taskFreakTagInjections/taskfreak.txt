@@ -1,0 +1,2777 @@
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABELr');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABELr', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("ta");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "ta", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tab");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tab", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABExL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABExL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('ALBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'ALBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tI");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tI", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABLE');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABLE', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('ySKoi');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'ySKoi', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LBAEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LBAEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('aJuLI');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'aJuLI', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('ABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'ABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LATBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LATBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tQ");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tQ", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('EABLL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'EABLL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('hTuUL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'hTuUL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('URpCr');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'URpCr', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAhBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAhBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tL");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tL", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('lLABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'lLABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LEBAL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LEBAL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABELb');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABELb', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LmBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LmBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABE');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABE', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LiBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LiBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('ylaKL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'ylaKL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABELF');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABELF', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LUABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LUABEL", 'LABELr', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LvABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LvABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('zLABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'zLABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABoL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABoL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tZ");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tZ", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('jlwIk');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'jlwIk', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('kdkaJ');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'kdkaJ', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('yABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'yABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("Xr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "Xr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAsBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAsBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAEBL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAEBL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("yr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "yr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("vtr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "vtr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABEOL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABEOL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('ABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'ABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LBEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LBEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("cr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "cr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("trX");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "trX", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("rt");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "rt", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('oABEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'oABEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tGr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tGr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('BALEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'BALEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("Pr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "Pr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("rt");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "rt", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("ftr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "ftr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("btr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "btr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LLBEA');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LLBEA', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("rt");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "rt", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("rt");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "rt", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAuEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAuEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('oiHjr');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'oiHjr', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("trW");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "trW", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("rt");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "rt", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("en");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "en", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("aW");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "aW", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("eK");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "eK", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LABL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LABL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("gr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "gr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("qJ");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "qJ", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("rt");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "rt", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("trs");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "trs", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("Io");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "Io", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("SI");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "SI", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('NHjKL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'NHjKL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('UmKSi');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'UmKSi', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('KLfsT');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'KLfsT', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("tAr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "tAr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("RW");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "RW", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 5: Modified source code of the line that has been mutated: var s_2 = document.getElementsByTagName('LAEL');
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY, "LABEL", 'LAEL', freak_label
+INDEX CALL: var ct = s_2[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: freak_label
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("md");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "md", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("Atr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "Atr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("Zr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("Xr");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "Xr", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var s_2 = document.getElementsByTagName('LABEL');
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: var s_1 = s_2[i];
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var s_1 = s_2[i];
+
+OUTPUT 6: Name of the function containing the mutated line: freak_label
+OUTPUT 7: MODIFY INDEX RANGE, freak_label
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var s_1 = s_2[i];
+INDEX LINE: 4
+INDEX FUNC: freak_label
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("pD");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "pD", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("trS");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "trS", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 5: Modified source code of the line that has been mutated: arrTr = document.getElementsByTagName("yV");
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, "TR", "yV", freak_highlist
+INDEX CALL: var content = arrTr[0].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 2
+OUTPUT 2: Original source code of the getElementById Line: arrTr = document.getElementsByTagName("tr");
+
+OUTPUT 3: Line no. mutated Line: 3
+OUTPUT 4: Original source code of mutated Line: var content = arrTr[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var content = arrTr[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: freak_highlist
+OUTPUT 7: MODIFY, 0, 1000, freak_highlist
+OUTPUT 8: 1
+INDEX CALL: var content = arrTr[1000].innerHTML;
+INDEX LINE: 3
+INDEX FUNC: freak_highlist
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------

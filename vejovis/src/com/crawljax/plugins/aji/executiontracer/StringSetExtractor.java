@@ -63,6 +63,9 @@ public class StringSetExtractor {
 	private String injectFuncName = "";
 	private int injectType = 0; //0 - regular, 1 - DOM node removal
 	
+	//Tag-related variables
+	private String gebtnParam; //parameter of GEBTN call
+	
 	public StringSetExtractor(String jsSourceFolder, String tracesFolder, DirectDOMAccess _dda) {
 		JS_SOURCE_FOLDER = jsSourceFolder;
 		TRACES_FOLDER = tracesFolder;
@@ -76,6 +79,9 @@ public class StringSetExtractor {
 		strSet = new ArrayList<StringSetLine>();
 		erroneousID = null;
 		currentState = 0;
+		
+		//Tag-related variables
+		gebtnParam = null;
 	}
 	
 	/**
@@ -157,21 +163,41 @@ public class StringSetExtractor {
 							theFT = nextTrace;
 							currentState = currState;
 							
-							//Get the erroneousID
-							List<VariableDesc> ftVars = theFT.f_decl.var_descs;
-							List<String> ftVarValues = theFT.var_values;
-							for (int k = 0; k < ftVars.size(); k++) {
-								VariableDesc vd = ftVars.get(k);
-								if (vd.getVarName().equals("vejovisDummyVar")) {
-									String erroneousIDWithQuotes = ftVarValues.get(k);
-									erroneousID = erroneousIDWithQuotes.substring(1, erroneousIDWithQuotes.length()-1);
-									break;
+							//Get the erroneousID (if error is ID-related)
+							if (dda.getSrcLine().trim().contains("getElementById(") || dda.getSrcLine().trim().contains("$(")) {
+								List<VariableDesc> ftVars = theFT.f_decl.var_descs;
+								List<String> ftVarValues = theFT.var_values;
+								for (int k = 0; k < ftVars.size(); k++) {
+									VariableDesc vd = ftVars.get(k);
+									if (vd.getVarName().equals("vejovisDummyVar")) {
+										String erroneousIDWithQuotes = ftVarValues.get(k);
+										erroneousID = erroneousIDWithQuotes.substring(1, erroneousIDWithQuotes.length()-1);
+										break;
+									}
+								}
+								if (erroneousID == null) {
+									System.err.println("Error: Erroneous ID not found");
+									throw new Exception();
+									//System.exit(-1);
 								}
 							}
-							if (erroneousID == null) {
-								System.err.println("Error: Erroneous ID not found");
-								throw new Exception();
-								//System.exit(-1);
+							else if (dda.getSrcLine().trim().contains("getElementsByTagName")) {
+								//Get the gEBTN parameter
+								GEBTNSrcExtractor gse = new GEBTNSrcExtractor();
+								AstNode srcLineAst = parse(srcLine);
+								srcLineAst.visit(gse);
+								String gebtnSrc = "";
+								String gebtnSrcParam = "";
+								if (gse.getGebtnSrc() != null) {
+									gebtnSrc = gse.getGebtnSrc();
+									gebtnSrcParam = gse.getGebtnParam();
+								}
+								else {
+									return -1;
+								}
+								
+								gebtnParam = gebtnSrcParam;
+								return 0;
 							}
 								
 							break;
@@ -2014,6 +2040,10 @@ public class StringSetExtractor {
 	
 	public int getCurrentState() {
 		return currentState;
+	}
+	
+	public String getGebtnParam() {
+		return gebtnParam;
 	}
 	
 	//Methods for inject mode

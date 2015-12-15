@@ -1,0 +1,42 @@
+
+
+Iteration number: 147
+Successes So Far: 0
+Failures So Far: 0
+Activated So Far: 0
+Injected So Far: 147
+Fix Class: VARIABLE_INDEX_MOD
+Number of Fix Suggestions: 1
+
+
+Iteration number: 148
+Successes So Far: 1
+Failures So Far: 0
+Activated So Far: 1
+Injected So Far: 148
+Fix Class: NEAR_TAG_MATCH
+Number of Fix Suggestions: 3
+
+
+Iteration number: 149
+Successes So Far: 2
+Failures So Far: 0
+Activated So Far: 2
+Injected So Far: 149
+Fix Class: NEAR_TAG_MATCH
+Number of Fix Suggestions: 3
+
+
+Iteration number: 150
+Successes So Far: 3
+Failures So Far: 0
+Activated So Far: 3
+Injected So Far: 150
+Fix Class: VARIABLE_INDEX_MOD
+Number of Fix Suggestions: 1
+
+
+Total Successes: 4
+Total Failures: 0
+Total Activated: 4
+Total Injected: 1042

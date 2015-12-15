@@ -1,0 +1,2670 @@
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("tGei");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "tGei", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("u");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "u", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("tGei");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "tGei", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("Wa");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "Wa", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("n");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "n", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spna");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spna", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("uTkw");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "uTkw", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("oHEK");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "oHEK", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ka");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ka", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("pJEn");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "pJEn", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("xa");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "xa", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("aG");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "aG", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("Iije");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "Iije", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("g");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "g", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("npas");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "npas", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ta");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ta", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("mvIe");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "mvIe", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ah");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ah", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("iKxd");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "iKxd", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("pqUR");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "pqUR", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("pan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "pan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("aT");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "aT", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("sapn");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "sapn", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("aJ");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "aJ", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ca");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ca", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ba");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ba", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("R");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "R", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("va");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "va", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("Q");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "Q", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("h");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "h", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("pan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "pan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("san");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "san", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("sBpan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "sBpan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("espan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "espan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spna");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spna", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ya");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ya", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("Fa");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "Fa", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("m");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "m", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("snap");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "snap", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spann");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spann", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spYn");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spYn", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ag");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ag", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("Sa");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "Sa", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("KbmE");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "KbmE", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("W");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "W", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("q");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "q", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("snap");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "snap", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("hpan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "hpan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("Ya");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "Ya", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("n");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "n", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("svan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "svan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("R");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "R", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("i");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "i", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("j");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "j", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("Tpan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "Tpan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ha");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ha", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("T");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "T", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 8
+OUTPUT 4: Original source code of mutated Line: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY INDEX RANGE, append
+OUTPUT 8: 1
+INDEX CALL: i=i+1;var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("T");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "T", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spna");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spna", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("M");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "M", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("aW");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "aW", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("aM");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "aM", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spanH");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spanH", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("d");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "d", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("sran");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "sran", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("sCan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "sCan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spJn");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spJn", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("E");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "E", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("sa");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "sa", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("aG");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "aG", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("J");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "J", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spuan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spuan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("psan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "psan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("sZpan");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "sZpan", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ba");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ba", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("apsn");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "apsn", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("spLn");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "spLn", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("UMGt");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "UMGt", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("F");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "F", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("ay");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "ay", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: _theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY INDEX RANGE, showWord
+OUTPUT 8: 1
+INDEX CALL: i=i+1;_theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("f");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "f", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("C");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "C", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 4
+OUTPUT 2: Original source code of the getElementById Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: wordSoFar = document.getElementsByTagName("span");
+
+OUTPUT 5: Modified source code of the line that has been mutated: wordSoFar = document.getElementsByTagName("qiJE");
+
+OUTPUT 6: Name of the function containing the mutated line: showWord
+OUTPUT 7: MODIFY, "SPAN", "qiJE", showWord
+INDEX CALL: _theWord = wordSoFar[i].getAttribute("id");
+INDEX LINE: 6
+INDEX FUNC: showWord
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 5
+OUTPUT 2: Original source code of the getElementById Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 3: Line no. mutated Line: 5
+OUTPUT 4: Original source code of mutated Line: var ltrs = document.getElementsByTagName("a");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ltrs = document.getElementsByTagName("Ea");
+
+OUTPUT 6: Name of the function containing the mutated line: append
+OUTPUT 7: MODIFY, "A", "Ea", append
+INDEX CALL: var ok = ok && checkLetter(ltrs[i].getAttribute("id"));
+INDEX LINE: 8
+INDEX FUNC: append
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------

@@ -18,6 +18,36 @@ public class FixClassSelector {
 	List<CandidateFix> candidateFixes;
 	List<String> replacementsTried;
 	
+	private IndexCall idxCall = null;
+	private String gebtnParam = null;
+	private List<List<DomTagInfo>> tags = null;
+	private int TAG_RANK_CUTOFF = 3;
+	
+	public FixClassSelector(List<StringSetLine> _strSet, String _erroneousID, DirectDOMAccess _dda, List<List<DomIdInfo>> _domIdStates, int _currentState, IndexCall _idxCall, String _gebtnParam, List<List<DomTagInfo>> _tags) throws Exception {
+		this.strSet = _strSet;
+		this.erroneousID = _erroneousID;
+		this.dda = _dda;
+		this.domIdStates = _domIdStates;
+		this.currentState = _currentState;
+		compressedStrSet = new ArrayList<StringSetLine>();
+		candidateFixes = new ArrayList<CandidateFix>();
+		replacementsTried = new ArrayList<String>();
+		
+		//Create compressed version of string set
+		if (!_strSet.isEmpty()) {
+			strSetCompress(_strSet);
+			compressionDone = true;
+			fillGaps();
+		}
+		
+		//Tag-related variables
+		this.idxCall = _idxCall;
+		this.gebtnParam = _gebtnParam;
+		this.tags = _tags;
+		
+		return;
+	}
+	
 	public FixClassSelector(List<StringSetLine> _strSet, String _erroneousID, DirectDOMAccess _dda, List<List<DomIdInfo>> _domIdStates, int _currentState) throws Exception {
 		this.strSet = _strSet;
 		this.erroneousID = _erroneousID;
@@ -29,9 +59,11 @@ public class FixClassSelector {
 		replacementsTried = new ArrayList<String>();
 		
 		//Create compressed version of string set
-		strSetCompress(_strSet);
-		compressionDone = true;
-		fillGaps();
+		if (!_strSet.isEmpty()) {
+			strSetCompress(_strSet);
+			compressionDone = true;
+			fillGaps();
+		}
 		
 		return;
 	}
@@ -39,12 +71,21 @@ public class FixClassSelector {
 	public void chooseFixClasses() throws Exception {
 		//Go through all fix classes and try to extract candidate fixes from each one
 		
-		findFixesNumberSuffixMod();
-		findFixesEarlyNodeInsertion();
-		findFixesNodeReinsertion();
-		findFixesNearMatchDL();
-		findFixesNearMatchTree();
-		findFixesSamePrefixMod();
+		if (erroneousID != null) {
+			findFixesNumberSuffixMod();
+			findFixesEarlyNodeInsertion();
+			findFixesNodeReinsertion();
+			findFixesNearMatchDL();
+			findFixesNearMatchTree();
+			findFixesSamePrefixMod();
+		}
+		
+		if (gebtnParam != null) {
+			findFixesNearTagMatch();
+			findFixesVariableIndexMod();
+			findFixesTagNameMod();
+			findFixesNumberLiteralIndexMod();
+		}
 	}
 	
 	private void findFixesNumberSuffixMod() throws Exception {
@@ -394,6 +435,141 @@ public class FixClassSelector {
 			else {
 				triedSoFar.add(nextIdMatch);
 				craftCreateNodeMessage(nextIdMatch, FixClasses.EARLY_NODE_INSERTION);
+			}
+		}
+	}
+	
+	private void findFixesVariableIndexMod() throws Exception {
+		//Prerequisite 1: There must be an index call
+		if (idxCall == null) {
+			return;
+		}
+		
+		//Prerequisite 2: Index is not a number literal
+		String idxParam = idxCall.getIndexExpr();
+		try {
+			Integer.parseInt(idxParam);
+			
+			//If no exception is thrown, then index must be
+			//a number literal
+			return;
+		}
+		catch (NumberFormatException nfe) { }
+		
+		//PREREQUISITES PASSED AT THIS POINT
+		
+		//Create candidate fix message assuming that this is part of a loop
+		
+		craftCheckLoopIndexRangeMessage(idxCall.getLineNo(), FixClasses.VARIABLE_INDEX_MOD);
+	}
+	
+	private void findFixesTagNameMod() throws Exception {
+		//Prerequisite 1: Tag name is standalone string literal
+		String gebtnParamNoQuotes = "";
+		if (!gebtnParam.contains("+") && ((gebtnParam.startsWith("\"") && gebtnParam.endsWith("\"")) || (gebtnParam.startsWith("\'") && gebtnParam.endsWith("\'")))) {
+			//Grab the standalone string without quotation marks
+			gebtnParamNoQuotes = gebtnParam.substring(1, gebtnParam.length()-1);
+		}
+		else {
+			return;
+		}
+		
+		//Prerequisite 2: Tag name must NOT exist in the list of tags in the current state
+		List<DomTagInfo> currentTags = tags.get(currentState);
+		for (int i = 0; i < currentTags.size(); i++) {
+			DomTagInfo dti = currentTags.get(i);
+			if (gebtnParamNoQuotes.toLowerCase().equals(dti.getTagStr().toLowerCase())) {
+				return;
+			}
+		}
+		
+		//PREREQUISITES PASSED AT THIS POINT
+		
+		//Create candidate fix messages suggesting top TAG_RANK_CUTOFF ranked tags
+		
+		Collections.sort(currentTags); //sort tags by rank
+		for (int i = 0; i < TAG_RANK_CUTOFF && i < currentTags.size(); i++) {
+			if (replacementsTried.contains(currentTags.get(i).getTagStr())) {
+				continue;
+			}
+			else {
+				replacementsTried.add(currentTags.get(i).getTagStr());
+				craftModifyTagParameterMessage(currentTags.get(i).getTagStr(), FixClasses.TAG_NAME_MOD);
+			}
+		}
+	}
+	
+	private void findFixesNumberLiteralIndexMod() throws Exception {
+		//Prerequisite 1: There must be an index call
+		if (idxCall == null) {
+			return;
+		}
+		
+		//Prerequisite 2: Index is a number literal
+		String idxParam = idxCall.getIndexExpr();
+		try {
+			Integer.parseInt(idxParam);
+		}
+		catch (NumberFormatException nfe) { 
+			return;
+		}
+		
+		//Prerequisite 3: Index is not 0
+		if (idxParam.equals("0")) {
+			return;
+		}
+		
+		//PREREQUISITES PASSED AT THIS POINT
+		
+		//Create candidate fix message suggesting 0 as the replacement number literal
+		craftModifyIndexToZeroMessage(idxParam, FixClasses.NUMBER_LITERAL_INDEX_MOD);
+	}
+	
+	private void findFixesNearTagMatch() throws Exception {
+		//Prerequisite 1: Tag name is standalone string literal
+		String gebtnParamNoQuotes = "";
+		if (!gebtnParam.contains("+") && ((gebtnParam.startsWith("\"") && gebtnParam.endsWith("\"")) || (gebtnParam.startsWith("\'") && gebtnParam.endsWith("\'")))) {
+			//Grab the standalone string without quotation marks
+			gebtnParamNoQuotes = gebtnParam.substring(1, gebtnParam.length()-1);
+		}
+		else {
+			return;
+		}
+		
+		//Prerequisite 2: Tag name must NOT exist in the list of tags in the current state
+		List<DomTagInfo> currentTags = tags.get(currentState);
+		for (int i = 0; i < currentTags.size(); i++) {
+			DomTagInfo dti = currentTags.get(i);
+			if (gebtnParamNoQuotes.toLowerCase().equals(dti.getTagStr().toLowerCase())) {
+				return;
+			}
+		}
+		
+		//PREREQUISITES PASSED AT THIS POINT
+		
+		//Go through all current tags and collect all tag names with a
+		//Damerau-Levenshtein distance of 1
+		List<DomTagInfo> currentStateTags = tags.get(currentState);
+		List<DomTagInfo> shortEditDistanceTags = new ArrayList<DomTagInfo>();
+		for (int i = 0; i < currentStateTags.size(); i++) {
+			DomTagInfo nextTag = currentStateTags.get(i);
+			IDistanceCalculator distanceCalc = new DamerauLevenshteinDistance();
+			String tagToCompare = nextTag.getTagStr();
+			int editDistance = distanceCalc.calculate(tagToCompare.toLowerCase(), gebtnParamNoQuotes.toLowerCase());
+			if (editDistance <= 1) {
+				shortEditDistanceTags.add(nextTag);
+			}
+		}
+		
+		//Create candidate fix message for nearest matching tags (edit distance of 1)
+		for (int i = 0; i < shortEditDistanceTags.size(); i++) {
+			String replacementTag = shortEditDistanceTags.get(i).getTagStr();
+			if (replacementsTried.contains(replacementTag)) {
+				continue;
+			}
+			else {
+				replacementsTried.add(replacementTag);
+				craftModifyTagParameterMessage(replacementTag, FixClasses.NEAR_TAG_MATCH);
 			}
 		}
 	}
@@ -809,6 +985,38 @@ public class FixClassSelector {
 		}
 		
 		CreateNodeMessage msg = new CreateNodeMessage(dda.getLineNo(), dda.funcName(), tagName, idStr, parentId, parentXpath);
+		msg.createMessage();
+		CandidateFix fix = new CandidateFix(msg, fc);
+		candidateFixes.add(fix);
+	}
+	
+	private void craftCheckLoopIndexRangeMessage(int idxCall_lineNo, FixClasses fc) throws Exception {
+		//The message would be a prompt to check the loop in which the
+		//line belongs. This inherently assumes that the line is part of a
+		//loop. A better algorithm would check if the line actually IS part
+		//of a loop.
+		
+		CheckLoopIndexRangeMessage msg = new CheckLoopIndexRangeMessage(idxCall_lineNo, idxCall.funcName());
+		msg.createMessage();
+		CandidateFix fix = new CandidateFix(msg, fc);
+		candidateFixes.add(fix);
+	}
+	
+	private void craftModifyTagParameterMessage(String possibleReplacementTag, FixClasses fc) throws Exception {
+		//Create a message that prompts the user to modify the standalone tag name
+		//into the specified new tag name
+		
+		ModifyTagParameterMessage msg = new ModifyTagParameterMessage(dda.getLineNo(), dda.funcName(), gebtnParam, possibleReplacementTag);
+		msg.createMessage();
+		CandidateFix fix = new CandidateFix(msg, fc);
+		candidateFixes.add(fix);
+	}
+	
+	private void craftModifyIndexToZeroMessage(String oldIndex, FixClasses fc) throws Exception {
+		//Create a message that prompts user to modify the index in the corresponding GEBTN
+		//index call to 0
+		
+		ModifyIndexToZeroMessage msg = new ModifyIndexToZeroMessage(idxCall.getLineNo(), idxCall.funcName(), oldIndex);
 		msg.createMessage();
 		CandidateFix fix = new CandidateFix(msg, fc);
 		candidateFixes.add(fix);

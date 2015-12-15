@@ -13,6 +13,8 @@ public class InjectionInput {
 	
 	private int type; //0 - regular, 1 - DOM node removal
 	
+	private IndexCall idxCall = null;
+	
 	public InjectionInput(int _gebidLineNo, String _origSrcCodeGebid, int _mutatedLineNo, String _origSrcCodeMutated, String _modSrcCodeMutated, String _funcNameMutated, List<String> _keywords) {
 		this.gebidLineNo = _gebidLineNo;
 		this.origSrcCodeGebid = _origSrcCodeGebid;
@@ -23,6 +25,20 @@ public class InjectionInput {
 		this.keywords = _keywords;
 		
 		this.type = 0;
+	}
+	
+	public InjectionInput(int _gebidLineNo, String _origSrcCodeGebid, int _mutatedLineNo, String _origSrcCodeMutated, String _modSrcCodeMutated, String _funcNameMutated, List<String> _keywords, IndexCall _idxCall) {
+		this.gebidLineNo = _gebidLineNo;
+		this.origSrcCodeGebid = _origSrcCodeGebid;
+		this.mutatedLineNo = _mutatedLineNo;
+		this.origSrcCodeMutated = _origSrcCodeMutated;
+		this.modSrcCodeMutated = _modSrcCodeMutated;
+		this.funcNameMutated = _funcNameMutated;
+		this.keywords = _keywords;
+		
+		this.type = 0;
+		
+		this.idxCall = _idxCall;
 	}
 	
 	public int getGebidLineNo() {
@@ -63,5 +79,9 @@ public class InjectionInput {
 	
 	public void setType() {
 		this.type = 1;
+	}
+	
+	public IndexCall getIndexCall() {
+		return idxCall;
 	}
 }

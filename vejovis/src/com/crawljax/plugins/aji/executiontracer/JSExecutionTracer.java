@@ -77,6 +77,9 @@ public class JSExecutionTracer
 	
 	//DOM ID info
 	private static List<List<DomIdInfo>> states = new ArrayList<List<DomIdInfo>>();
+	
+	//DOM Tag info
+	private static List<List<DomTagInfo>> states_tag = new ArrayList<List<DomTagInfo>>();
 
 	/**
 	 * @param filename
@@ -168,6 +171,7 @@ public class JSExecutionTracer
 		//FROLIN - GET DOM IDS AND INFO ON THEIR PARENTS
 		try {
 			getDOMElemsWithID(session);
+			getDOMElemTagNames(session);
 		}
 		catch (Exception e) {
 			
@@ -423,6 +427,10 @@ public class JSExecutionTracer
 		return states;
 	}
 	
+	public static List<List<DomTagInfo>> getTags() {
+		return states_tag;
+	}
+	
 	public String getXPath(Element elem) {
 		//See http://stackoverflow.com/questions/2631820/im-storing-click-coordinates-in-my-db-and-then-reloading-them-later-and-showing/2631931#2631931
 		String xpath = "";
@@ -463,5 +471,51 @@ public class JSExecutionTracer
 	
 	public void setDomListsDirectory(String _domDirectory) {
 		this.DOMIDLISTSDIRECTORY = _domDirectory;
+	}
+	
+	
+	private void getDOMElemTagNames(CrawlSession session) throws Exception {
+		String theTag = "";
+		
+		try {
+			List <DomTagInfo> domTags = new ArrayList<DomTagInfo>();
+			
+			NodeList nlist = session.getCurrentState().getDocument().getElementsByTagName("*");
+			for (int i = 0; i < nlist.getLength(); i++) {
+				Element e = (Element)nlist.item(i);
+			
+				theTag = e.getTagName();
+				
+				//Do not add if already in the list
+				boolean alreadyInList = false;
+				for (int j = 0; j < domTags.size(); j++) {
+					String domTagName = domTags.get(j).getTagStr();
+					if (domTagName.equals(theTag)) {
+						alreadyInList = true;
+						break;
+					}
+				}
+				if (alreadyInList) {
+					continue;
+				}
+				
+				//Get number of instances
+				NodeList tagList = session.getCurrentState().getDocument().getElementsByTagName(theTag);
+				int tagFrequency = tagList.getLength();
+				
+				//For simplicity, output to a structure
+				//The index items in each list should correspond
+				//to each other
+				DomTagInfo newDomInfo = new DomTagInfo(theTag, tagFrequency);
+				domTags.add(newDomInfo);
+			}
+			System.err.println("\n");
+			states_tag.add(domTags);
+		}
+		catch (Exception ee) {
+			System.err.println("Error: Exception when retrieving document");
+			throw new Exception();
+			//System.exit(-1);
+		}
 	}
 }

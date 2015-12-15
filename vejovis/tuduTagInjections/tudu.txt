@@ -1,0 +1,2745 @@
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("Pl");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "Pl", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("bz");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "bz", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("rM");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "rM", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("il");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "il", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("xV");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "xV", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("il");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "il", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("uE");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "uE", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("lu");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "lu", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("lu");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "lu", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("utl");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "utl", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("ulR");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "ulR", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("ulC");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "ulC", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("yC");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "yC", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("Ht");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "Ht", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("gul");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "gul", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("Nul");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "Nul", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("tG");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "tG", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("gY");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "gY", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("us");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "us", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("jT");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "jT", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("wl");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "wl", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("kT");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "kT", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("lE");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "lE", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("uG");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "uG", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("il");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "il", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("lu");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "lu", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("Ni");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "Ni", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("hH");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "hH", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("yE");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "yE", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("zli");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "zli", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("il");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "il", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("lF");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "lF", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("Rn");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "Rn", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("lu");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "lu", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("uVl");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "uVl", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("Yb");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "Yb", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("ulD");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "ulD", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("liT");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "liT", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("UC");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "UC", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("Ed");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "Ed", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 10
+OUTPUT 4: Original source code of mutated Line: decorateMenu(uls[i]);
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;decorateMenu(uls[i]);
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY INDEX RANGE, initMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;decorateMenu(uls[i]);
+INDEX LINE: 10
+INDEX FUNC: initMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("lVi");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "lVi", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 6
+OUTPUT 4: Original source code of mutated Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var uls = document.getElementsByTagName("TY");
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, "UL", "TY", initMenu
+INDEX CALL: var ct = uls[0].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("Xp");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "Xp", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 2
+OUTPUT 4: Original source code of mutated Line: var ct = items[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = items[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, 0, 1000, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = items[1000].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 6
+OUTPUT 2: Original source code of the getElementById Line: var uls = document.getElementsByTagName("ul");
+
+OUTPUT 3: Line no. mutated Line: 7
+OUTPUT 4: Original source code of mutated Line: var ct = uls[0].innerHTML;
+
+OUTPUT 5: Modified source code of the line that has been mutated: var ct = uls[1000].innerHTML;
+
+OUTPUT 6: Name of the function containing the mutated line: initMenu
+OUTPUT 7: MODIFY, 0, 1000, initMenu
+OUTPUT 8: 1
+INDEX CALL: var ct = uls[1000].innerHTML;
+INDEX LINE: 7
+INDEX FUNC: initMenu
+INDEX EXPR: 1000
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 4
+OUTPUT 4: Original source code of mutated Line: items[i].firstChild.myIndex = i;
+
+OUTPUT 5: Modified source code of the line that has been mutated: i=i+1;items[i].firstChild.myIndex = i;
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY INDEX RANGE, decorateMenu
+OUTPUT 8: 1
+INDEX CALL: i=i+1;items[i].firstChild.myIndex = i;
+INDEX LINE: 4
+INDEX FUNC: decorateMenu
+INDEX EXPR: i
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("Of");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "Of", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------
+Mutation name: Random
+
+OUTPUT 1: Line no. of getElementById Line: 1
+OUTPUT 2: Original source code of the getElementById Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 3: Line no. mutated Line: 1
+OUTPUT 4: Original source code of mutated Line: var items = menu.getElementsByTagName("li");
+
+OUTPUT 5: Modified source code of the line that has been mutated: var items = menu.getElementsByTagName("jf");
+
+OUTPUT 6: Name of the function containing the mutated line: decorateMenu
+OUTPUT 7: MODIFY, "LI", "jf", decorateMenu
+INDEX CALL: var ct = items[0].innerHTML;
+INDEX LINE: 2
+INDEX FUNC: decorateMenu
+INDEX EXPR: 0
+-----------------------------------------------------------------------------------------------------------

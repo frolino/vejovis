@@ -1,5 +1,6 @@
 function freak_label() {
 	var s_2 = document.getElementsByTagName('LABEL');
+	var ct = s_2[0].innerHTML;
 	for (i=0; i<s_2.length; i++) {
 		var s_1 = s_2[i];
 		s_1.onclick = function() {

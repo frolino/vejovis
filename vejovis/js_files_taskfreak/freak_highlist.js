@@ -1,6 +1,7 @@
 function freak_highlist() {
 	ff = document.zappa;
 	arrTr = document.getElementsByTagName("tr");
+	var content = arrTr[0].innerHTML;
 	for (i=0, j=arrTr.length; i < j; i++) {
 		if (arrTr[i].className != 'nothanks')
 		{

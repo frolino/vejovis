@@ -30,19 +30,19 @@
 <!-- graph -->
 <div id="graphPanel" style="display: none; position: absolute; z-index: 20; left: 0px; top: 21px;">
 <div id="index">
-	<a id="linkindex" href="javascript:void(0)" onclick="loadState('index')" title="http://www.tumblr.com/why-tumblr">
+	<a id="linkindex" href="javascript:void(0)" onclick="loadState('index')" title="http://frolinsfilms.comuv.com/vejovis_example_tags_v4.html">
 		<img src="screenshots/index.png" id="imgindex" width="80px" height="80px" onmouseover="stateZoom(this)" onmouseout="stateUnzoom(this)" /><br />
 		index
 	</a>
 </div>
 <div id="state1">
-	<a id="linkstate1" href="javascript:void(0)" onclick="loadState('state1')" title="http://www.tumblr.com/why-tumblr">
+	<a id="linkstate1" href="javascript:void(0)" onclick="loadState('state1')" title="http://frolinsfilms.comuv.com/vejovis_example_tags_v4.html">
 		<img src="screenshots/state1.png" id="imgstate1" width="80px" height="80px" onmouseover="stateZoom(this)" onmouseout="stateUnzoom(this)" /><br />
 		S1
 	</a>
 </div>
 <div id="state2">
-	<a id="linkstate2" href="javascript:void(0)" onclick="loadState('state2')" title="http://www.tumblr.com/why-tumblr">
+	<a id="linkstate2" href="javascript:void(0)" onclick="loadState('state2')" title="http://frolinsfilms.comuv.com/vejovis_example_tags_v4.html">
 		<img src="screenshots/state2.png" id="imgstate2" width="80px" height="80px" onmouseover="stateZoom(this)" onmouseout="stateUnzoom(this)" /><br />
 		S2
 	</a>
@@ -66,7 +66,7 @@ function makeGraph() {
 	var g = new Graph();
 	
 		g.addEdge($('index'), $('state1'));
-		g.addEdge($('index'), $('state2'));
+		g.addEdge($('state1'), $('state2'));
 		 
 	var layouter = new Graph.Layout.Spring(g);
 	layouter.layout();
